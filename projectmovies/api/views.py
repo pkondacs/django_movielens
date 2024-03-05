@@ -24,7 +24,7 @@ class MovieViewSet(viewsets.ModelViewSet):
     
     @action(detail=True, methods=['post'], permission_classes=[AllowAny])
     def rate_movie(self, request, pk=None):
-        movie_id = pk  # 'pk' is taken from the URL
+        movieId = pk  # 'pk' is taken from the URL
         
         # If you want to allow anonymous users to rate movies,
         # you'll need to handle the case when request.user is AnonymousUser.
@@ -37,13 +37,13 @@ class MovieViewSet(viewsets.ModelViewSet):
         
         try:
             # Ensure that the movie exists
-            movie = Movie.objects.get(pk=movie_id)
+            movieId = Movie.objects.get(pk=movieId)
         except Movie.DoesNotExist:
             return Response({'error': 'Movie not found.'}, status=status.HTTP_404_NOT_FOUND)
         
         # Check if the user has already rated this movie
         # You need to decide how to handle ratings for anonymous users.
-        rating, created = Ratings.objects.get_or_create(user=user, movie=movie)
+        rating, created = Ratings.objects.get_or_create(user=user, movieId=movieId)
         
         # Update the rating
         rating_serializer = RatingSerializer(rating, data=data)
