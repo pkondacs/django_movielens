@@ -85,7 +85,7 @@ class Command(BaseCommand):
             # Retrieve the corresponding Profile/Movie instance
             # You need to ensure that the Profile/Movie instances have already been imported as per your previous step
             profile_instance = Profile.objects.get(id=row['userId'])
-            movie_instance = Movie.objects.get(id=row['movieId'])
+            movie_instance = Movie.objects.get(movieId=row['movieId'])
             
             # Now create a Ratings instance using the Profile instance
             rating = Ratings(
