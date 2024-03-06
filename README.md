@@ -20,7 +20,7 @@ Link: <http://127.0.0.1:8000/api/movies/>
 
 ### GET
 
-<https://drive.google.com/file/d/1ttj4nU340hxj-NFh6KYOxwQRgAFyA9xW/view?usp=sharing>
+![django-postman-GET](https://github.com/pkondacs/django_movielens/assets/57910212/ebf410cf-131f-4555-937d-a0071b804f8b)
 
 ### POST
 
