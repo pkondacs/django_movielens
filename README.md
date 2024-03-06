@@ -1,10 +1,12 @@
 ## Steps of using the application
 
-In the VS code terminal, go to project folder where the manage.py is, e.g.:
+Requirements are saved and can be installed by:
+pip install requirements.txt
 
+In the VS code terminal, go to project folder where the manage.py is, e.g.:
 C:\\django_new\\django_movielens\\projectmovies
 
-_Delete the migrations and the database, created a command for this one:_
+First: _Delete the migrations and the database, created a command for this one:_
 
 1. python manage.py delete_migrations_and_database
 2. python manage.py makemigrations
