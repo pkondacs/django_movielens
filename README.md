@@ -36,7 +36,7 @@ Link: <http://127.0.0.1:8000/api/movies/>
 
 movieId is an Autofield so it gets automatically created
 
-<https://drive.google.com/file/d/1OV2TREfnksCgMbfjwL5jmME8-mKxdd_n/view?usp=sharing>
+![django-postman-POST](https://github.com/pkondacs/django_movielens/assets/57910212/5bfc260c-be75-4122-9b43-746884225e2b)
 
 ### PUT
 
@@ -52,7 +52,7 @@ Link: <http://127.0.0.1:8000/api/movies/1/>
 
 }
 
-<https://drive.google.com/file/d/1KFrjOOPbmF_m4vyExOH8Sly0qjv-43y3/view?usp=sharing>
+![django-postman-PUT](https://github.com/pkondacs/django_movielens/assets/57910212/616807e5-ae46-4208-9e66-3c99361c458a)
 
 ### PATCH
 
@@ -66,7 +66,7 @@ Link: <http://127.0.0.1:8000/api/movies/1/>
 
 }
 
-<https://drive.google.com/file/d/1-AXx7vk4YnL8CTbTu3PJUdmcT681awyF/view?usp=sharing>
+![django-postman-PATCH](https://github.com/pkondacs/django_movielens/assets/57910212/2d991b15-ac1d-4848-a310-de723c105887)
 
 ## Rating a movie as a user
 
@@ -90,7 +90,7 @@ Body:
 
 }
 
-<https://drive.google.com/file/d/1nGi2mxIS_4zCWD2xGWB2rUJbP-iNzIoy/view?usp=sharing>
+![django-postman-USER-AUTH](https://github.com/pkondacs/django_movielens/assets/57910212/0b598abe-39e7-485e-8a18-200239ab137f)
 
 HTTP link include the following:
 
